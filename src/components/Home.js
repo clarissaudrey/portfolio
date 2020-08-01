@@ -20,7 +20,7 @@ export default function Home() {
                     </div>
 
                     <div className="description">
-                        <h3>Software development • UI/UX design</h3>
+                        <h3>Software development • UI design</h3>
                     </div>
 
                     <div className="container-3">
