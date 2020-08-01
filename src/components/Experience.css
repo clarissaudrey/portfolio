@@ -1,0 +1,333 @@
+.blocks-exp {
+    display: grid;
+    grid-template-columns: repeat(9, 9vw);
+    grid-template-rows: repeat(7, 14vh);
+    grid-gap: 1.1rem;
+    justify-content: center;
+    align-content: center;
+    padding: 70px 0px 15px 0px;
+}
+
+@media screen and (max-width: 650px) {
+    .blocks-exp {
+      width: 100%;
+      display: block;
+    }
+}
+
+.empty-box-1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: rgba(231, 147, 62, 0.6);
+    box-shadow: 5px 5px 5px grey;
+}
+
+.empty-box-2 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    background-color: rgba(231, 147, 62, 0.6);
+    box-shadow: 5px 5px 5px grey;
+}
+
+.empty-box-3 {
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background-color: rgba(231, 147, 62, 0.6);
+    box-shadow: 5px 5px 5px grey;
+}
+
+.experience-title {
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: white;
+    opacity: 1;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.experience-title h1 {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 35px;
+    font-family: Arial;
+    font-size: 40px;
+    text-shadow: 1px 1px grey;
+}
+
+.exp-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.netgear {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.netgear-animation {
+    position: relative;
+    grid-row: 1/4;
+}
+
+.netgear-animation:hover .netgear-overlay {
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+}
+
+.netgear-overlay {
+    position: absolute;
+    top: 0;
+    background-color: white;
+    opacity: 0;
+    transition: .5s ease;
+    overflow: hidden;
+}
+
+.foodbank {
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 8;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.foodbank-animation {
+    position: relative;
+    grid-row: 1/8;
+}
+
+.foodbank-animation:hover .foodbank-overlay {
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+}
+
+.foodbank-overlay {
+    position: absolute;
+    top: 0;
+    background-color: white;
+    opacity: 0;
+    transition: .5s ease;
+    overflow: hidden;
+}
+
+.teaching {
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.teaching-animation {
+    position: relative;
+    grid-row: 1/10;
+}
+
+.teaching-animation:hover .teaching-overlay {
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+}
+
+.teaching-overlay {
+    position: absolute;
+    top: 0;
+    background-color: white;
+    opacity: 0;
+    transition: .5s ease;
+    overflow: hidden;
+}
+
+.gisau {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.gisau-animation {
+    position: relative;
+    grid-row: 1/4;
+}
+
+.gisau-animation:hover .gisau-overlay {
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+}
+
+.gisau-overlay {
+    position: absolute;
+    top: 0;
+    background-color: white;
+    opacity: 0;
+    transition: .5s ease;
+    overflow: hidden;
+}
+
+.girlstech {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.girls-animation {
+    position: relative;
+    grid-row: 1/4;
+}
+
+.girls-animation:hover .girls-overlay {
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+}
+
+.girls-overlay {
+    position: absolute;
+    top: 0;
+    background-color: white;
+    opacity: 0;
+    transition: .5s ease;
+    overflow: hidden;
+}
+
+.ubc {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.ubc-animation {
+    position: relative;
+    grid-row: 1/6;
+}
+
+.ubc-animation:hover .ubc-overlay {
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+}
+
+.ubc-overlay {
+    position: absolute;
+    top: 0;
+    background-color: white;
+    opacity: 0;
+    transition: .5s ease;
+    overflow: hidden;
+}
+
+.vantage {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 5;
+    grid-row-end: 8;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.vantage-animation {
+    position: relative;
+    grid-row: 1/6;
+}
+
+.vantage-animation:hover .vantage-overlay {
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+}
+
+.vantage-overlay {
+    position: absolute;
+    top: 0;
+    background-color: white;
+    opacity: 0;
+    transition: .5s ease;
+    overflow: hidden;
+}
+
+.kExp-title {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    font-family: Helvetica, cursive;
+    text-align: left;
+    padding: 0px 10px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.kExp-title h6 {
+    margin: 0px;
+    margin-top: 5px;
+    color: rgba(231, 147, 62, 0.836);
+}
+
+.kExp-subtitle {
+    margin: 0px;
+    margin-top: 5px;
+    color: rgba(231, 147, 62, 1);
+    font-size: 10px;
+    margin-bottom: -13px;
+}
+
+.kExp-title p {
+    margin: 0px;
+    font-size: 12px;
+}
+
+.position-desc {
+    color: gray;
+}
+
+.kExp-desc {
+    font-family: Helvetica, cursive;
+    text-align: left;
+    font-size: 14px;
+    padding: 0px 10px;
+
+    /*Make texts vertically centered*/
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+}
+
+.kExp-period {
+    color: gray;
+}
+
+ul {
+    padding-left: 15px;
+    list-style-type: square;
+}
