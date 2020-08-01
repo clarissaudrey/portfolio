@@ -8,10 +8,10 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter basename="portfolio">
+    <BrowserRouter>
       <div className="App">
         <Header />
-        <Route exact path="/" component={Home} />
+        <Route exact path="/portfolio" component={Home} />
         <Route path="/projects" component={Projects} />
         <Route path="/experience" component={Experience} />
       </div>
