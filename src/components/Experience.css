@@ -14,7 +14,6 @@
       display: block;
       margin: 0px 10px;
       padding-top: 20px;
-      max-block-size: fit-content;
     }
 
     .netgear {
@@ -38,10 +37,6 @@
     }
 
     .teaching {
-        padding-bottom: 15px;
-    }
-
-    .netgear {
         padding-bottom: 15px;
     }
 }
@@ -86,7 +81,7 @@
 .experience-title h1 {
     text-align: center;
     font-weight: 600;
-    letter-spacing: 35px;
+    letter-spacing: 30px;
     font-family: Arial;
     font-size: 3vw;
     text-shadow: 1px 1px grey;
@@ -359,7 +354,7 @@
         margin-bottom: -10px;
     }
     .kExp-desc {
-      font-size: 10px;
+        font-size: 10px;
     }
   }
 
