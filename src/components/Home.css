@@ -14,16 +14,7 @@
 @media screen and (min-width: 800px) {
     .container-1 {
         display: flex;
-        background-color: white;
-        height: fit-content;
-        width: fit-content;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
         padding: 40px 60px;
-        box-shadow: 25px 25px 10px grey;
     }
 
     .myName-1 {
@@ -38,17 +29,19 @@
 
     .container-3 {
         justify-content: space-between;
-        min-width: fit-content;
-    }
-
-    .skills {
-        min-width: fit-content;
+        min-width: 100%;
     }
 }
 
 .container-1 {
     background-color: white;
-    margin: 15px
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 25px 25px 10px grey;
 }
 
 
@@ -83,6 +76,10 @@
 }
 
 @media screen and (max-width: 799px) {
+    .container-1 {
+        margin-top: 275px;
+    }
+
     .container-3 {
         justify-content: space-evenly;
     }
@@ -103,7 +100,7 @@
 @media screen and (min-width: 600px) {
     .container-3 {
         display: flex;
-        width: 550px;
+        width: 599px;
     }
 
     .logo {
