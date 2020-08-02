@@ -1,5 +1,5 @@
 .prjct-container-all {
-    padding: 70px 30px 0px 30px;
+    padding: 40px 30px 0px 30px;
     font-family: Helvetica, cursive;
     background-image: url(./images/orange-bg.png);
     background-size: 18% 100%;
@@ -40,6 +40,24 @@
     }
 }
 
+@media screen and (min-width: 1201px) {
+    .prjct-box-1 {
+        max-width: 50%;
+    }
+
+    .projects-title {
+        max-width: 50%;
+    }
+
+    .prjct-box-2 {
+        max-width: 50%;
+    }
+
+    .prjct-box-3 {
+        max-width: 50%;
+    }
+}
+
 .prjct-row-1 {
     display: flex;
     padding: 20px 20px 0px 20px;
@@ -50,14 +68,12 @@
     display: flex;
     flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: 0;
     padding: 15px;
 }
 
 .projects-title {
     flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: 0;
     font-size: 30px;
     justify-content: center;
     /*font-family: Helvetica, cursive;*/
@@ -100,7 +116,6 @@
     display: flex;
     flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: 0;
     padding: 15px 20px;
 }
 
@@ -108,7 +123,6 @@
     display: flex;
     flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: 0;
     padding: 15px 20px;
 }
 
