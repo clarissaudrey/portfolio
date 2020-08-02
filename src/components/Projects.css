@@ -4,7 +4,6 @@
     background-image: url(./images/orange-bg.png);
     background-size: 18% 100%;
     background-position: 0px 70px;
-    position: absolute;
     background-repeat: no-repeat;
 }
 
@@ -22,7 +21,7 @@
     .prjct-container-all {
         background-position: 0px 0px;
     }
-    
+
     .prjct-box-1 {
         flex-direction: column;
     }
