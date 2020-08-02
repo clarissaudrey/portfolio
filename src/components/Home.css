@@ -97,10 +97,10 @@
     display: flex;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
     .container-3 {
         display: flex;
-        width: 599px;
+        width: 601px;
     }
 
     .logo {
