@@ -1,13 +1,12 @@
-.navigation {
-    display: flex;
-    padding-right: 20px;
-    justify-content: flex-end;
-    width: 100vw;
-    position: absolute;
-    /*
-    background: rgb(175, 121, 95);
-    */
-    top: 0;
+@media screen and (min-width: 800px) {
+  .navigation {
+      display: flex;
+      padding-right: 20px;
+      justify-content: flex-end;
+      width: 100vw;
+      position: absolute;
+      top: 0;
+  }
 }
 
 .navigation h3 {

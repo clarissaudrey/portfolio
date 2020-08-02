@@ -1,7 +1,7 @@
 *,
 *::after,
 *::before {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 .home-container-all {
@@ -11,30 +11,50 @@
     height: 100%;
 }
 
-.container-1 {
-    display: flex;
-    background-color: white;
-    height: fit-content;
-    width: fit-content;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    padding: 40px 80px;
-    box-shadow: 25px 25px 10px grey;
+@media screen and (min-width: 800px) {
+    .container-1 {
+        display: flex;
+        background-color: white;
+        height: fit-content;
+        width: fit-content;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        padding: 40px 80px;
+        box-shadow: 25px 25px 10px grey;
+    }
+
+    .myName-1 {
+        margin-left: -30px;
+        text-align: left;
+    }
+
+    .description {
+        margin-left: -20px;
+        text-align: left;
+    }
+
+    .container-3 {
+        justify-content: space-between;
+    }
 }
+
+.container-1 {
+    background-color: white;
+    margin: 15px
+}
+
 
 .myPic {
     justify-content: center;
 }
 
 .myName-1 {
-    font-size: 27px;
+    font-size: 25px;
     font-family: Helvetica, cursive;
     color: black;
-    text-align: left;
-    margin-left: -30px;
 }
 
 .myName-1 h1 {
@@ -42,10 +62,8 @@
 }
 
 .description {
-    text-align: left;
     font-size: 20px;
     margin-top: -35px;
-    margin-left: -20px;
 }
 
 .description h3 {
@@ -55,9 +73,14 @@
 }
 
 .container-3 {
-    display: flex;
-    width: 550px;
-    justify-content: space-between;
+    min-width: 100%;
+    padding-left: 15px;
+}
+
+@media screen and (max-width: 799px) {
+    .container-3 {
+        justify-content: space-evenly;
+    }
 }
 
 .skills {
@@ -70,6 +93,17 @@
 .skills-row-1 {
     margin-top: -30px;
     display: flex;
+}
+
+@media screen and (min-width: 600px) {
+    .container-3 {
+        display: flex;
+        width: 550px;
+    }
+
+    .logo {
+        flex-direction: column;
+    }
 }
 
 .skills-row-1 div {
@@ -90,16 +124,17 @@
 .connect {
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 
 .logo {
     display: flex;
-    flex-direction: column;
     margin-top: -15px;
 }
 
 .connect a{
     padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 .title {

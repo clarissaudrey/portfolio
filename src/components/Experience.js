@@ -152,7 +152,7 @@ export default function Experience() {
                             <li>Developed and debugged a snake-like game 
                             (called Hungry Panda) in Phyton</li>
                             <li>Aspired girls who have a strong interest 
-                            in computer science</li>
+                            in tech</li>
                         </ul>
                         <p className="kExp-period">October 2017 - January 2018</p>
                         </div>
@@ -177,10 +177,8 @@ export default function Experience() {
                         <div className="kExp-desc">
                         <h6 className="kExp-subtitle">Main responsibility</h6>
                         <ul className="exp-list">
-                            <li>Responding to the aspirations of, but not 
-                            limited to, Indonesian students at UBC</li>
-                            <li>Promoting Indonesian cultures to other 
-                            international students</li>
+                            <li>Responding to the aspirations of Indonesian students at UBC</li>
+                            <li>Promoting Indonesian cultures</li>
                         </ul>
                         <p className="kExp-period">September 2017 - present</p>
                         </div>

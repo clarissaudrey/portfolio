@@ -8,10 +8,41 @@
     padding: 70px 0px 15px 0px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
     .blocks-exp {
       width: 100%;
       display: block;
+      margin: 0px 10px;
+      padding-top: 20px;
+      max-block-size: fit-content;
+    }
+
+    .netgear {
+        padding-bottom: 15px;
+    }
+
+    .ubc {
+        padding-bottom: 15px;
+    }
+
+    .foodbank {
+        padding-bottom: 15px;
+    }
+
+    .girlstech {
+        padding-bottom: 15px;
+    }
+
+    .gisau {
+        padding-bottom: 15px;
+    }
+
+    .teaching {
+        padding-bottom: 15px;
+    }
+
+    .netgear {
+        padding-bottom: 15px;
     }
 }
 
@@ -57,7 +88,7 @@
     font-weight: 600;
     letter-spacing: 35px;
     font-family: Arial;
-    font-size: 40px;
+    font-size: 3vw;
     text-shadow: 1px 1px grey;
 }
 
@@ -322,6 +353,15 @@
     left: 0%;
     transform: translate(0%, -50%);
 }
+
+@media screen and (max-width: 1300px) {
+    .kExp-subtitle {
+        margin-bottom: -10px;
+    }
+    .kExp-desc {
+      font-size: 10px;
+    }
+  }
 
 .kExp-period {
     color: gray;
