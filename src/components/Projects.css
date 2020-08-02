@@ -3,7 +3,6 @@
     font-family: Helvetica, cursive;
     background-image: url(./images/orange-bg.png);
     background-size: 18% 100%;
-    background-position: 0px 70px;
     background-repeat: no-repeat;
 }
 
@@ -18,10 +17,6 @@
 }
 
 @media screen and (max-width: 800px) {
-    .prjct-container-all {
-        background-position: 0px 0px;
-    }
-
     .prjct-box-1 {
         flex-direction: column;
     }
@@ -54,14 +49,14 @@
     background-color: white;
     display: flex;
     flex-grow: 1;
-    flex-shrink: 1;
+    flex-shrink: 0;
     flex-basis: 0;
     padding: 15px;
 }
 
 .projects-title {
     flex-grow: 1;
-    flex-shrink: 1;
+    flex-shrink: 0;
     flex-basis: 0;
     font-size: 30px;
     justify-content: center;
@@ -104,7 +99,7 @@
     background-color: white;
     display: flex;
     flex-grow: 1;
-    flex-shrink: 1;
+    flex-shrink: 0;
     flex-basis: 0;
     padding: 15px 20px;
 }
@@ -112,7 +107,7 @@
 .prjct-box-3 {
     display: flex;
     flex-grow: 1;
-    flex-shrink: 1;
+    flex-shrink: 0;
     flex-basis: 0;
     padding: 15px 20px;
 }
