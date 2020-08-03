@@ -31,7 +31,7 @@ export default function Home() {
 
                             <div className="logo">
                                 <a 
-                                href='https://ca.linkedin.com/in/clarissa-audrey-b2a606163'
+                                href='www.linkedin.com/in/clarissa-audrey'
                                 target="_blank">
                                     <img 
                                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/1024px-Linkedin.svg.png"

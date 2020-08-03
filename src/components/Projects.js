@@ -55,7 +55,7 @@ export default function Projects() {
                         </div>
                         <div className="dns-desc">
                             <h4>Domain Name Server Lookup</h4>
-                            <p>A UDP client-server protocol in which the client queried an hostname to get the IP address, which can be IPv4 or IPv6, corresponding to that hostname. The protocol used recursive hostname lookup starting from the root server, until it reached an IP address that matched the hostname. The implementation was written in Java using DatagramSocket and handled all the protocol errors.</p>
+A UDP client-server protocol in which the client queried a hostname to get the IP address, which can be IPv4 or IPv6, corresponding to that hostname. The protocol used recursive hostname lookup starting from the root server, until it reached an IP address that matched the hostname. The implementation was written in Java using DatagramSocket and handled all the protocol errors.                            <p></p>
                         </div>
                     </div>
 
@@ -92,7 +92,7 @@ export default function Projects() {
                     <div className="prjct-3-desc">
                         <div className="space-desc">
                             <h4>Space Invader Game</h4>
-                            <p>Developed a mini game that consisted of a airship that can fire missiles at the coming invaders. Wrote the code using Java, worked with abstract classes and inheritance to avoid coupling and to improve cohesion in the program, and created Junit test for each class.</p>
+                            <p>Developed a mini game that consisted of an airship that can fire missiles at the coming invaders. Wrote the code using Java, worked with abstract classes and inheritance to avoid coupling and to improve cohesion in the program, and created Junit test for each class.</p>
                         </div>
                         <div className="mckay-desc">
                             <h4>McKay Creek River Flow Measurement</h4>
